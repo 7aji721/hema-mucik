@@ -21,7 +21,7 @@ module.exports = {
     .setDescription(`
 
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ 🔎 ━━━━━━━━ ◈
 
  | **User Commands**
 > \`invite\` • \`support\` • \`about\`
@@ -31,7 +31,7 @@ module.exports = {
 > \`chinfo\` • \`listemoji\` • \`stats\`
 > \`allbots\` 
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ 🎵 ━━━━━━━━ ◈
 
  | **Music Commands**
 > \`play\` • \`skip\` • \`skipto\`
@@ -40,7 +40,7 @@ module.exports = {
 > \`remove\` • \`queue\` • \`loop\`
 > \`lyrics\` • \`radio\`
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ 🛠 ━━━━━━━━ ◈
 
  |** Moderation Commands**
 > \`ban\` • \`unban\` • \`setnick\`
@@ -50,7 +50,7 @@ module.exports = {
 > \`chcreate\` • \`chdelete\` • \`slowmode\`
 > \`addemoji\` • \`banner\` • \`say\`
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ 📋 ━━━━━━━━ ◈
 
  | **Gif Commands**
 > \`boy\` • \`girl\` • \`couple\`
@@ -58,31 +58,31 @@ module.exports = {
 > \`neon\` • \`smoking\` • \`baby\`
 > \`animal\`
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ 📌 ━━━━━━━━ ◈
 
  | **Picture Command **
 > \`pboy\` • \`pgirl\` • \`pcouple\`
 > \`pemoji\` • \`panime\` • \`meme\`
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ 📨 ━━━━━━━━ ◈
 
  | **Text Commands**
 > \`textkurd\` • \`textengli\`
 > \`textarab\` • \`textturk\`
 > \`textpers\`
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ ⚙ ━━━━━━━━ ◈
 
  | **Game Commands**
 > \`kiss\` • \`slap\` • \`hug\`
 > \`feed\` • \`cuddle\` • \`pat\`
 > \`poke\`
 
-◈ ━━━━━━━━ ● ━━━━━━━━ ◈
+◈ ━━━━━━━━ 🖇 ━━━━━━━━ ◈
  
 | **Links**
 
-[Support](https://discord.gg/wTESwYkdwY) | [Invite](https://discord.com/api/oauth2/authorize?client_id=828308993172045845&permissions=8&scope=bot)
+[Support](https://discord.gg/Mnd7sjm5jn) | [Invite](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("BLACK");

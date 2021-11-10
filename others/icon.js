@@ -17,7 +17,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setTitle("**Icon Server**")
     .setAuthor(message.guild.name, message.guild.iconURL())
-    .setColor("YELLOW")
+    .setColor("#8F00FF")
     .setImage(message.guild.iconURL())
     .setFooter(message.author.username,message.author.avatarURL())
     .setTimestamp()

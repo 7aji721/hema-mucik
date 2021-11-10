@@ -6,7 +6,7 @@ module.exports = {
     let user = message.mentions.users.first() || message.author;
     let name = user.username
     const embed = new Discord.MessageEmbed()
-    .setColor(`YELLOW`)
+    .setColor(`#8F00FF`)
     .setDescription(`。　　　　•　 　ﾟ　　。 　　.
 　　　.　　　 　　.　　　　　。　　 。　. 　
 .　　 。　　　　　 ඞ 。 . 　　 • 　　　　•

@@ -1990,26 +1990,16 @@ client.on(`message`, async (message) => {
 
 
 > __**My Devloper :**__
-> <@!680407776593182735>
-> <@!716796150656794645>
+> <@!904074858147762257>
 
-> **Akira Bot**
-> __**Prefix**__ { **-** }
+> **Moon Light**
+> __**Prefix**__ { **@** }
 
 > **Servers **
 > \`${client.guilds.cache.size}\`
 
-> **Channels ** 
-> \`${client.channels.cache.size}\` 
-
 > **My Name **
 > \`${client.user.tag}\`
-
-> **My ID **
-> \`${client.user.id}\`
-
-> **My Ping **
-> \`${client.ws.ping}\`
 
 > **Version **
 > \`${process.version}\`
@@ -2018,7 +2008,7 @@ client.on(`message`, async (message) => {
 
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_4:822203026776391711>")
+    message.react("🛠")
   } 
 
 //An suuport announcement for everyone but no one knows so fine ^w^
@@ -2029,17 +2019,17 @@ client.on(`message`, async (message) => {
     const embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
     .setDescription (`
-{Links}  | [{Support}](https://discord.gg/am8FpWt3Yh) | [{Invite}](https://discord.com/api/oauth2/authorize?client_id=828308993172045845&permissions=8&scope=bot)`)
+{Links}  | [{Support}](https://discord.gg/Mnd7sjm5jn) | [{Invite}](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)`)
 
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(`https://media.discordapp.net/attachments/827288710265045053/879419178933694504/image0.gif`)
-    .setTitle(`**{Support Akira Bot }**`) 
+    .setTitle(`**{Support Moon Light }**`) 
     .setThumbnail(``)
     .setTimestamp()
     
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_4:822203026776391711>")
+    message.react("📌")
   }
 
   //An embed announcement for everyone but no one knows so fine ^w^

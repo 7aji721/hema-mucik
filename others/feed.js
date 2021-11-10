@@ -21,7 +21,7 @@ module.exports = {
         .setTitle(user.username + " You have been feed! ")
         .setDescription((user.toString() + " got feed by " + message.author.toString()))
         .setImage(owo.url)
-        .setColor(`BLACK`)
+        .setColor(`#8F00FF`)
         .setURL(owo.url);
         message.channel.send(feedembed);
 

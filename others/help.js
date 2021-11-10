@@ -33,7 +33,7 @@ module.exports = {
 > \`shuffle\` • \`search\` • \`resume\`\`remove\` • \`queue\` • \`loop\`
 > \`lyrics\` • \`radio\`
 
- 🛠 |** Moderation Commands**
+ ⚙ |** Moderation Commands**
 > \`ban\` • \`unban\` • \`setnick\`\`roleadd\` • \`roleremove\`
 > \`setprefix\` • \`clear\` • \`lock\`\`unlock\` • \`embed\` • \`vkick\`
 > \`chcreate\` • \`chdelete\` • \`slowmode\`\`addemoji\` • \`banner\` • \`say\`
@@ -42,7 +42,7 @@ module.exports = {
 > \`boy\` • \`girl\` • \`couple\`\`sad\` • \`cartoon\` • \`anime\`
 > \`neon\` • \`smoking\` • \`baby\`\`animal\`
 
- ⚙ | **Picture Command **
+ 🌅 | **Photo Command **
 > \`pboy\` • \`pgirl\` • \`pcouple\`
 > \`pemoji\` • \`panime\` • \`meme\`
 
@@ -50,7 +50,7 @@ module.exports = {
 > \`textkurd\` • \`textengli\`\`textpers\`
 > \`textarab\` • \`textturk\`
 
- 🎮 | **Game Commands**
+ 🕹 | **Game Commands**
 > \`kiss\` • \`slap\` • \`hug\`\`poke\`
 > \`feed\` • \`cuddle\` • \`pat\`
  

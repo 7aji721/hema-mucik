@@ -22,45 +22,37 @@ module.exports = {
 
 
 
+
  📌| **User Commands**
 > \`ping\` • \`prefix\` • \`uptime\`\`invite\` • \`support\` • \`about\`
 > \`se\` • \`avatar\` • \`sifo\` • \`user\`\`tinvites\` • \`sug\` • \`roleuser\`
 > \`chinfo\` • \`listemoji\` • \`stats\`\`allbots\`
 
  🎵| **Music Commands**
-> \`play\` • \`skip\` • \`skipto\`
-> \`stop\` • \`volume\` • \`nowplaying\`
-> \`shuffle\` • \`search\` • \`resume\`
-> \`remove\` • \`queue\` • \`loop\`
+> \`stop\` • \`volume\` • \`nowplaying\`\`play\` • \`skip\` • \`skipto\`
+> \`shuffle\` • \`search\` • \`resume\`\`remove\` • \`queue\` • \`loop\`
 > \`lyrics\` • \`radio\`
 
  🛠|** Moderation Commands**
-> \`ban\` • \`unban\` • \`setnick\`
-> \`roleadd\` • \`roleremove\`
-> \`setprefix\` • \`clear\` • \`lock\`
-> \`unlock\` • \`embed\` • \`vkick\`
-> \`chcreate\` • \`chdelete\` • \`slowmode\`
-> \`addemoji\` • \`banner\` • \`say\`
+> \`ban\` • \`unban\` • \`setnick\`\`roleadd\` • \`roleremove\`
+> \`setprefix\` • \`clear\` • \`lock\`\`unlock\` • \`embed\` • \`vkick\`
+> \`chcreate\` • \`chdelete\` • \`slowmode\`\`addemoji\` • \`banner\` • \`say\`
 
  ✨| **Gif Commands**
-> \`boy\` • \`girl\` • \`couple\`
-> \`sad\` • \`cartoon\` • \`anime\`
-> \`neon\` • \`smoking\` • \`baby\`
-> \`animal\`
+> \`boy\` • \`girl\` • \`couple\`\`sad\` • \`cartoon\` • \`anime\`
+> \`neon\` • \`smoking\` • \`baby\`\`animal\`
 
  ⚙| **Picture Command **
 > \`pboy\` • \`pgirl\` • \`pcouple\`
 > \`pemoji\` • \`panime\` • \`meme\`
 
  📋| **Text Commands**
-> \`textkurd\` • \`textengli\`
+> \`textkurd\` • \`textengli\`\`textpers\`
 > \`textarab\` • \`textturk\`
-> \`textpers\`
 
  🎮| **Game Commands**
-> \`kiss\` • \`slap\` • \`hug\`
+> \`kiss\` • \`slap\` • \`hug\`\`poke\`
 > \`feed\` • \`cuddle\` • \`pat\`
-> \`poke\`
  
 🖇| **Links**
 

@@ -41,7 +41,7 @@ module.exports = {
                     muterole = await message.guild.roles.create({
                         data: {
                             name: "muted",
-                            color: "#514f48",
+                            color: "#8F00FF",
                             permissions: []
                         }
                     })
@@ -70,13 +70,13 @@ module.exports = {
             }
                 if (reason) {
                 const sembed = new MessageEmbed()
-                    .setColor("GREEN")
+                    .setColor("#8F00FF")
                     .setAuthor(message.guild.name, message.guild.iconURL())
                     .setDescription(`${mutee.user.username} was successfully muted for ${reason}`)
                 message.channel.send(sembed);
                 } else {
                     const sembed2 = new MessageEmbed()
-                    .setColor("GREEN")
+                    .setColor("#8F00FF")
                     .setDescription(`${mutee.user.username} was successfully muted`)
                 message.channel.send(sembed2);
                 }
@@ -85,7 +85,7 @@ module.exports = {
             if (!channel) return;
 
             let embed = new MessageEmbed()
-                .setColor('BLACK')
+                .setColor('#8F00FF')
                 .setThumbnail(mutee.user.displayAvatarURL({ dynamic: true }))
                 .setAuthor(`${message.guild.name} Modlogs`, message.guild.iconURL())
                 .addField("**Moderation**", "mute")

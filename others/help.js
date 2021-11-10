@@ -23,12 +23,9 @@ module.exports = {
 
 
  📌| **User Commands**
-> \`invite\` • \`support\` • \`about\`
-> \`ping\` • \`prefix\` • \`uptime\`
-> \`tinvites\` • \`sug\` • \`roleuser\`
-> \`se\` • \`avatar\` • \`sifo\` • \`user\`
-> \`chinfo\` • \`listemoji\` • \`stats\`
-> \`allbots\` 
+> \`ping\` • \`prefix\` • \`uptime\`\`invite\` • \`support\` • \`about\`
+> \`se\` • \`avatar\` • \`sifo\` • \`user\`\`tinvites\` • \`sug\` • \`roleuser\`
+> \`chinfo\` • \`listemoji\` • \`stats\`\`allbots\`
 
  🎵| **Music Commands**
 > \`play\` • \`skip\` • \`skipto\`

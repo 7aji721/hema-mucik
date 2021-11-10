@@ -23,38 +23,38 @@ module.exports = {
 
 
 
- 📌| **User Commands**
+ 📌 | **User Commands**
 > \`ping\` • \`prefix\` • \`uptime\`\`invite\` • \`support\` • \`about\`
 > \`se\` • \`avatar\` • \`sifo\` • \`user\`\`tinvites\` • \`sug\` • \`roleuser\`
 > \`chinfo\` • \`listemoji\` • \`stats\`\`allbots\`
 
- 🎵| **Music Commands**
+ 🎵 | **Music Commands**
 > \`stop\` • \`volume\` • \`nowplaying\`\`play\` • \`skip\` • \`skipto\`
 > \`shuffle\` • \`search\` • \`resume\`\`remove\` • \`queue\` • \`loop\`
 > \`lyrics\` • \`radio\`
 
- 🛠|** Moderation Commands**
+ 🛠 |** Moderation Commands**
 > \`ban\` • \`unban\` • \`setnick\`\`roleadd\` • \`roleremove\`
 > \`setprefix\` • \`clear\` • \`lock\`\`unlock\` • \`embed\` • \`vkick\`
 > \`chcreate\` • \`chdelete\` • \`slowmode\`\`addemoji\` • \`banner\` • \`say\`
 
- ✨| **Gif Commands**
+ ✨ | **Gif Commands**
 > \`boy\` • \`girl\` • \`couple\`\`sad\` • \`cartoon\` • \`anime\`
 > \`neon\` • \`smoking\` • \`baby\`\`animal\`
 
- ⚙| **Picture Command **
+ ⚙ | **Picture Command **
 > \`pboy\` • \`pgirl\` • \`pcouple\`
 > \`pemoji\` • \`panime\` • \`meme\`
 
- 📋| **Text Commands**
+ 📋 | **Text Commands**
 > \`textkurd\` • \`textengli\`\`textpers\`
 > \`textarab\` • \`textturk\`
 
- 🎮| **Game Commands**
+ 🎮 | **Game Commands**
 > \`kiss\` • \`slap\` • \`hug\`\`poke\`
 > \`feed\` • \`cuddle\` • \`pat\`
  
-🖇| **Links**
+🖇 | **Links**
 
 [Support](https://discord.gg/Mnd7sjm5jn) | [Invite](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)
 `)

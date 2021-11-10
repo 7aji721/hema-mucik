@@ -16,14 +16,13 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(``)
-    .setImage(`https://images-ext-1.discordapp.net/external/8dnWClB7RQReD53qvyYe09bdJMAmXP3q-4cAthMuI5c/https/media.discordapp.net/attachments/827288710265045053/879419178933694504/image0.gif`)
-    .setTitle(`**Akira Help**`)
+    .setImage(``)
+    .setTitle(`**Moon Light Help**`)
     .setDescription(`
 
 
-◈ ━━━━━━━━ 🔎 ━━━━━━━━ ◈
 
- | **User Commands**
+ 📌| **User Commands**
 > \`invite\` • \`support\` • \`about\`
 > \`ping\` • \`prefix\` • \`uptime\`
 > \`tinvites\` • \`sug\` • \`roleuser\`
@@ -31,18 +30,14 @@ module.exports = {
 > \`chinfo\` • \`listemoji\` • \`stats\`
 > \`allbots\` 
 
-◈ ━━━━━━━━ 🎵 ━━━━━━━━ ◈
-
- | **Music Commands**
+ 🎵| **Music Commands**
 > \`play\` • \`skip\` • \`skipto\`
 > \`stop\` • \`volume\` • \`nowplaying\`
 > \`shuffle\` • \`search\` • \`resume\`
 > \`remove\` • \`queue\` • \`loop\`
 > \`lyrics\` • \`radio\`
 
-◈ ━━━━━━━━ 🛠 ━━━━━━━━ ◈
-
- |** Moderation Commands**
+ 🛠|** Moderation Commands**
 > \`ban\` • \`unban\` • \`setnick\`
 > \`roleadd\` • \`roleremove\`
 > \`setprefix\` • \`clear\` • \`lock\`
@@ -50,37 +45,27 @@ module.exports = {
 > \`chcreate\` • \`chdelete\` • \`slowmode\`
 > \`addemoji\` • \`banner\` • \`say\`
 
-◈ ━━━━━━━━ 📋 ━━━━━━━━ ◈
-
- | **Gif Commands**
+ ✨| **Gif Commands**
 > \`boy\` • \`girl\` • \`couple\`
 > \`sad\` • \`cartoon\` • \`anime\`
 > \`neon\` • \`smoking\` • \`baby\`
 > \`animal\`
 
-◈ ━━━━━━━━ 📌 ━━━━━━━━ ◈
-
- | **Picture Command **
+ ⚙| **Picture Command **
 > \`pboy\` • \`pgirl\` • \`pcouple\`
 > \`pemoji\` • \`panime\` • \`meme\`
 
-◈ ━━━━━━━━ 📨 ━━━━━━━━ ◈
-
- | **Text Commands**
+ 📋| **Text Commands**
 > \`textkurd\` • \`textengli\`
 > \`textarab\` • \`textturk\`
 > \`textpers\`
 
-◈ ━━━━━━━━ ⚙ ━━━━━━━━ ◈
-
- | **Game Commands**
+ 🎮| **Game Commands**
 > \`kiss\` • \`slap\` • \`hug\`
 > \`feed\` • \`cuddle\` • \`pat\`
 > \`poke\`
-
-◈ ━━━━━━━━ 🖇 ━━━━━━━━ ◈
  
-| **Links**
+🖇| **Links**
 
 [Support](https://discord.gg/Mnd7sjm5jn) | [Invite](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)
 `)

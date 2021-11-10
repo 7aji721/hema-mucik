@@ -17,8 +17,8 @@ module.exports = {
     let minutes = Math.floor(client.uptime / 60000) % 60;
     let seconds = Math.floor(client.uptime / 1000) % 60;
     //react with approve emoji
-    message.react("<:emoji_4:822203026776391711>");
-    return message.channel.send(new MessageEmbed().setColor("RANDOM").setTitle(`Panther Uptime\`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
+    message.react("✅");
+    return message.channel.send(new MessageEmbed().setColor("#8F00FF").setTitle(`Panther Uptime\`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
 
 
   }

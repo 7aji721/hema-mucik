@@ -21,7 +21,7 @@ module.exports = {
         .setTitle(user.username + " You have been hugged! ")
         .setDescription((user.toString() + " got hugged by " + message.author.toString()))
         .setImage(owo.url)
-        .setColor(`BLACK`)
+        .setColor(`#8F00FF`)
         .setURL(owo.url);
         message.channel.send(kissembed);
 

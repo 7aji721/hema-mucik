@@ -1979,8 +1979,8 @@ client.on(`message`, async (message) => {
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("BLACK")
-    .setAuthor("About Akira Bot", "")
+    .setColor("#8F00FF")
+    .setAuthor("About Moon Light", "")
     .setThumbnail(``)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
@@ -2022,7 +2022,7 @@ client.on(`message`, async (message) => {
 {Links}  | [{Support}](https://discord.gg/Mnd7sjm5jn) | [{Invite}](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)`)
 
     .setFooter(message.author.username, message.author.displayAvatarURL)
-    .setImage(`https://media.discordapp.net/attachments/827288710265045053/879419178933694504/image0.gif`)
+    .setImage(``)
     .setTitle(`**{Support Moon Light }**`) 
     .setThumbnail(``)
     .setTimestamp()

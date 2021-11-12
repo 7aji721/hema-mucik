@@ -31,7 +31,7 @@ module.exports = {
 [__**Invite Bot**__](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)`)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("#8F00F")
+   .setColor("#B800FF")
    message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 

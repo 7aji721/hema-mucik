@@ -16,23 +16,23 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(``)
-    .setImage(`https://media.discordapp.net/attachments/848815969233403934/850660018532777984/emoji_17.gif `)
-    .setTitle(`Akira is One`)
+    .setImage(`https://images-ext-2.discordapp.net/external/tT97smxwy-eR9n7y0wWIzgtQZV3l--Usmf1bMkTyUtI/https/cdn.discordapp.com/emojis/903388699843264563.gif`)
+    .setTitle(`Moon Light`)
     .setDescription(`
  {__**Developer Bot**__}
- <@!680407776593182735>
+ <@!904074858147762257>
 
-[__**GITHUP**__](https://github.com/ALVEN-bit)
+[__**TIK TOK**__](https://vm.tiktok.com/ZSerp5GjL/)
 
-[__**EDITOR ALVEN**__](https://discord.gg/am8FpWt3Yh)
+[__**EDITOR BOKANI**__](https://discord.gg/Mnd7sjm5jn)
 
-[__**Black Hat Staff**__](https://discord.gg/Z9Bu2xgezr)
+[__**MOON LIGHT**__](https://discord.gg/Mnd7sjm5jn)
 
-[__**Invite Bot**__](https://discord.com/api/oauth2/authorize?client_id=828308993172045845&permissions=8&scope=bot)`)
+[__**Invite Bot**__](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)`)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("BLACK")
-   message.react("<a:emoji_34:813753858710175745>")
+   .setColor("#8F00F")
+   message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }

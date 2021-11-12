@@ -22,11 +22,11 @@ module.exports = {
  {__**Developer Bot**__}
  <@!904074858147762257>
 
-[__**TIK TOK**__](https://vm.tiktok.com/ZSerp5GjL/)
+[__**Tik Tok**__](https://vm.tiktok.com/ZSerp5GjL/)
 
-[__**EDITOR BOKANI**__](https://discord.gg/Mnd7sjm5jn)
+[__**Editor Bokani**__](https://discord.gg/Mnd7sjm5jn)
 
-[__**MOON LIGHT**__](https://discord.gg/Mnd7sjm5jn)
+[__**Moon Light**__](https://discord.gg/Mnd7sjm5jn)
 
 [__**Invite Bot**__](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)`)
 

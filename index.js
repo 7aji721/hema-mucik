@@ -441,27 +441,6 @@ client.on("message", message => {
 });
 
 
-const rply = [
-'ڕاوەستە با قوڵتر لە سیمات ڕابمێنم کێ دەزانێ ڕەنگە تاتۆدێیەوە من نەمێنم"];',
-'بەخەیاڵیشمدا نەهاتبو هێندە تەنهابم..',////ba dlli xot la jegai zhmaraka wllami slawaka bnwsa
-'بۆ دواجارە بەجێت دێڵم سا ماڵ ئاوا ئازیزەکەم',
-'برینەکانم لە دڵخۆشیەکانی تۆ قوڵترە ،پێکەنینەکانشت ژەھرێکە بۆ برینەکانم',
-'پەنجەرەكەت بكەرەوە هەر دڵدارەكەی جارانم.',
- 'شـەو وەرە خـەونـم دڵـم بـۆت تـەنـگ بـووە..)!',
- 'بەڵێنێکی بچوکت پێ دەدەم ، ڕۆژێک لە ھەموو کەسێکدا دەگەڕێی بۆ منێکی تر ، بەڵام نایدۆزیەوە',
- 'من دەستەکانم ماندووی نوسینن بۆتۆ و تۆش ئاشقی دەستەکانی ئەوی!',
- 'من دەستەکانم ماندووی نوسینن بۆتۆ و تۆش ئاشقی دەستەکانی ئەوی!',
- 'خۆشمەوێیی بە سەلامەتی ھەموو ئەوانەی حەسودی بە جێگاکەت دەبەن',
- 'دەستم بگرە تەواوی بوون و نەبوونی من تۆیی',
- 'ھەموویان مرۆڤن لەکاتێکدا تۆ ژیانی',
- 'کەسێک لە ژیانما نیە،ژیانم لەکەسێکایە'
-];
- client.on('message', msg => {
- if (msg.content === "tkurd") {/////ba dlli xot la jegai sllaw shtek da bna
-   msg.channel.send(`${rply[Math.floor(Math.random() * rply.length)]}`);
-  }
-});
-
 
 
 client.on('message',async message => {
@@ -482,7 +461,6 @@ let channel = message.mentions.channels.first() || client.guilds.cache.get(messa
         message.channel.send(channelembed);
     }
 })
-
 
 
 client.on('message', message => {
@@ -1955,7 +1933,7 @@ client.on(`message`, async (message) => {
 
 
 > __**My Devloper :**__
-> <@!904074858147762257>
+> <@!676186625298137116>
 
 > **Moon Light**
 > __**Prefix**__ { **@** }
@@ -1973,7 +1951,7 @@ client.on(`message`, async (message) => {
 
     //send the Message
     message.channel.send(embed)
-    message.react("🛠")
+    message.react("✅")
   } 
 
 //An suuport announcement for everyone but no one knows so fine ^w^
@@ -1982,7 +1960,7 @@ client.on(`message`, async (message) => {
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("RANDOM")
+    .setColor("#8F00FF")
     .setDescription (`
 {Links}  | [{Support}](https://discord.gg/Mnd7sjm5jn) | [{Invite}](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)`)
 
@@ -2003,7 +1981,7 @@ client.on(`message`, async (message) => {
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("RANDOM")
+    .setColor("#8F00FF")
     .setDescription(saymsg)
     //delete the Command
     message.delete({timeout: 300})

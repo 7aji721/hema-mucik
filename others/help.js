@@ -46,10 +46,6 @@ module.exports = {
 > \`pboy\` • \`pgirl\` • \`pcouple\`
 > \`pemoji\` • \`panime\` • \`meme\`
 
- 📋 | **Text Commands**
-> \`textkurd\` • \`textengli\`\`textpers\`
-> \`textarab\` • \`textturk\`
-
  🕹 | **Game Commands**
 > \`kiss\` • \`slap\` • \`hug\`\`poke\`
 > \`feed\` • \`cuddle\` • \`pat\`

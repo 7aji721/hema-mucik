@@ -25,7 +25,7 @@ module.exports = {
     if (!song) {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id);
-      const endembed = new MessageEmbed().setColor("#FF0000")
+      const endembed = new MessageEmbed().setColor("#9F00FF")
         .setAuthor(`Music Queue ended.`, "https://cdn.discordapp.com/attachments/793209080978210858/841888493743112202/818852862918262814.gif")
       return queue.textChannel.send(endembed).catch(console.error);
     }
@@ -148,7 +148,7 @@ module.exports = {
         .addField("Text Channel 📋 :",message.channel.name)
         .addField("Voulome 🔉 :",100)
         .setURL(song.url)
-        .setColor("#FF0000")
+        .setColor("#9F00FF")
         .setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
       var playingMessage = await queue.textChannel.send(newsong);
       await playingMessage.react("⏭");
@@ -299,7 +299,7 @@ module.exports = {
           .setAuthor(`Play Now Music`, `https://cdn.discordapp.com/attachments/793209080978210858/841888092205613096/818843627621974056.gif`)
           .setDescription(`[${song.title}](${song.url})`)
           .setThumbnail(song.thumbnail.url)
-          .setColor("#FF0000")
+          .setColor("#9F00FF")
           .setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
       //if its a stream
       if(ms >= 10000) {
@@ -322,7 +322,7 @@ module.exports = {
           let queueEmbed = new MessageEmbed()
             .setTitle("Music Queue")
             .setDescription(description)
-            .setColor("#FF0000")
+            .setColor("#9F00FF")
              ;
       
           const splitDescription = splitMessage(description, {
@@ -347,7 +347,7 @@ module.exports = {
           let lyrics = null;
           let temEmbed = new MessageEmbed()
           .setAuthor("Searching...", "https://cdn.discordapp.com/attachments/793209080978210858/841907311533752340/818858098906759220.gif").setFooter("Lyrics")
-          .setColor("#FF0000")
+          .setColor("#9F00FF")
           let result = await message.channel.send(temEmbed)
           try {
             lyrics = await lyricsFinder(queue.songs[0].title,"");
@@ -359,7 +359,7 @@ module.exports = {
           let lyricsEmbed = new MessageEmbed()
             .setTitle("🗒️ Lyrics")
             .setDescription(lyrics)
-            .setColor("#FF0000")
+            .setColor("")
       
           if (lyricsEmbed.description.length >= 2048)
       

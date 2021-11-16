@@ -2105,7 +2105,7 @@ client.on("message", message => {
 });
 
 client.on('ready', () => {
-var channel = client.channels.cache.get('906333162555199488');
+var channel = client.channels.cache.get('909115134859964427');
     if (channel) channel.join();
 });
 

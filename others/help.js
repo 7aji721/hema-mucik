@@ -17,7 +17,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setThumbnail(``)
     .setImage(``)
-    .setTitle(`**Moon Light Help**`)
+    .setTitle(`**Meno Bot Help**`)
     .setDescription(`
 
 
@@ -52,7 +52,7 @@ module.exports = {
  
 🖇 | **Links**
 
-[Support](https://discord.gg/Mnd7sjm5jn) | [Invite](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)
+[Support](https://discord.gg/8jK6tksWJu) | [Invite](https://discord.com/api/oauth2/authorize?client_id=841788647014531073&permissions=446713670464&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("#8F00FF");

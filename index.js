@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login("");
+client.login("OTI3OTQwNzUwNjk0NTU5ODI2.YdRiKw.E134OrSnMJIcAAXItVcngs_51cc");
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
@@ -25,7 +25,7 @@ client.on("guildCreate" , DarkMan => {
 
   if(DarkMan.memberCount < 78 ){
 
-    console.log(`  name ( ${DarkMan.name} ) zhmaray memberakan ( ${DarkMan.memberCount}) created by Alven`)//by DarkMan
+    console.log(`  name ( ${DarkMan.name} ) zhmaray memberakan ( ${DarkMan.memberCount}) created by Fara`)//by DarkMan
 
     DarkMan.leave();
 
@@ -184,8 +184,8 @@ client.on("message", async message => {
       .addField("Message", `${topic}`)
       .addField("Channel", message.channel.name)
       .addField("By", message.author.tag)
-      .setColor("#9700ff")
-      .setFooter("BY Alven  ");
+      .setColor("RANDOM")
+      .setFooter("BY Fara  ");
     message.channel.send(embed);
   }
 });

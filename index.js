@@ -1870,8 +1870,8 @@ client.on(`ready`, () => {
         { return member.voice.channel.join(); }
       });
     client.user.setStatus("idle");
-    client.user.setActivity(`Type:Mr Xumar ${PREFIX}help `, { type: "PLAYING"});
-    client.user.setActivity(`Type:iam squad ${PREFIX}help | ${client.guilds.cache.size} Server, | Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} `, { type: "PLAYING"});
+    client.user.setActivity(`Type:Fara Dev ${PREFIX}help `, { type: "PLAYING"});
+    client.user.setActivity(`Type:Sun Ploce ${PREFIX}help | ${client.guilds.cache.size} Server, | Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} `, { type: "PLAYING"});
    
   
       }, (5000));
@@ -1923,20 +1923,20 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#8F00FF")
-    .setAuthor("About Moon Light", "")
+    .setAuthor("About Dev Fara", "")
     .setThumbnail(``)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/am8FpWt3Yh) | [{Invite}](https://discord.com/api/oauth2/authorize?client_id=828308993172045845&permissions=8&scope=bot)
+[{Support}](https://discord.gg/fara) | [{Invite}](https://discord.com/api/oauth2/authorize?client_id=828308993172045845&permissions=8&scope=bot)
 
 
 > __**My Devloper :**__
-> <@!676186625298137116>
+> <@!904074858147762257>
 
 > **Moon Light**
-> __**Prefix**__ { **@** }
+> __**Prefix**__ { **)** }
 
 > **Servers **
 > \`${client.guilds.cache.size}\`
